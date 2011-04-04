@@ -1,13 +1,10 @@
-# 001-gentoo-install-x86_64_stage3.sh -- Gentoo Stage 3 install script
-# Copyright (C) 2008-2011 Vish (thelinuxguyis@yahoo.co.in)
+# 001-gentoo-install-x86_64_stage3.sh -- Gentoo Stage 3 install script v0.1
+# Copyright (C) 2011 Vishwanath Venkataraman (thelinuxguyis@yahoo.co.in)
+# This program is relased under GNU GPL Version 3, 29 June 2007
 # For conditions of distribution and use, see copyright notice in COPYRIGHT.txt
-
-# Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
-# 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation,Inc.
-# This install-0.1.sh is free software; the Free Software Foundation
+# This is free software; the Free Software Foundation
 # gives unlimited permission to copy and/or distribute it,
 # with or without modifications, as long as this notice is preserved.
-
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY, to the extent permitted by law; without
 # even the implied warranty of MERCHANTABILITY or FITNESS FOR A
