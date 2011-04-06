@@ -52,7 +52,7 @@ clear;
 
 setup_device()
 {
-	echo -e "${boldon}${redf}Starting Gentoo 64-bit Install Stage 1....${reset}"
+	echo -e "${boldon}${redf}Starting Gentoo 64-bit Install for Stage 3....${reset}"
 	sleep 5;
 
         echo -e "${boldon}${redf}Enter the Partition name for Gentoo Install: ${reset}"
