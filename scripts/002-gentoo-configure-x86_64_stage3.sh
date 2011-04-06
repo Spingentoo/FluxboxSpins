@@ -273,16 +273,16 @@ done
 
 configure_gentoo()
 {
-	#init
-	#web_sync
-	#kernel_download
-	#kernel_config
-	#kernel_install
-	#tools_install
-	#grub_install
-	#splash_install
-	#xorg_install
-	#fluxbox_install
+	init
+	web_sync
+	kernel_download
+	kernel_config
+	kernel_install
+	tools_install
+	grub_install
+	splash_install
+	xorg_install
+	fluxbox_install
 
 echo -e "${redf}DONT FORGET TO CHANGE ROOT PASSWORD AFTER A NEW GENTOO INSTALL!!!"
 echo -e "DONT FORGET TO CHANGE ROOT PASSWORD AFTER A NEW GENTOO INSTALL!!!${reset}"
