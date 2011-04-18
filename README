@@ -24,11 +24,13 @@
  ==================
 
  1) Boot from Gentoo Live DVD/CD or Any running Linux System like Ubuntu/Debian or another Gentoo :-) 
+	Link: http://gentoo.osuosl.org//releases/amd64/11.0/livedvd-amd64-multilib-11.0.iso
 
  2) Download Gentoo Install Script
+	git clone https://github.com/Spingentoo/FluxboxSpins.git
 
  3) Run the install script
-
+   cd FluxboxSpins
   ./install-0.1.sh
 
   This will invoke 001-gentoo-install-x86_64_stage3.sh script and setup your device partition for stage3 based installation.
@@ -44,8 +46,6 @@
 TODO:
 
 a) Support for additional packages.
-b) Increase interactive behaviour.
-c) Kernel Modules auto-detection. 
 
 BUGS:
 
