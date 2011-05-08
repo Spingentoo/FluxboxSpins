@@ -17,12 +17,12 @@ initrd  /boot/initrd.img-2.6.37.4
 
 title Gentoo Linux 2.6.38
 root (hd0,6)
-kernel /boot/kernel-genkernel-x86_64-2.6.38-gentoo-r1 root=/dev/ram0 init=/linuxrc ramdisk=8192 real_root=/dev/sda7 i915.modeset=1
+kernel /boot/kernel-genkernel-x86_64-2.6.38-gentoo-r4 root=/dev/ram0 init=/linuxrc ramdisk=8192 real_root=/dev/sda7 i915.modeset=1
 initrd /boot/initramfs-genkernel-x86_64-2.6.38-gentoo-r4
 
 title Gentoo Linux 2.6.38-fbsplash
 root (hd0,6)
-kernel /boot/kernel-genkernel-x86_64-2.6.38-gentoo-r1 root=/dev/ram0 init=/linuxrc ramdisk=8192 real_root=/dev/sda7  i915.modeset=1 splash=silent,theme:natural_gentoo console=tty1 quiet
+kernel /boot/kernel-genkernel-x86_64-2.6.38-gentoo-r4 root=/dev/ram0 init=/linuxrc ramdisk=8192 real_root=/dev/sda7  i915.modeset=1 splash=silent,theme:natural_gentoo console=tty1 quiet
 initrd /boot/initramfs-genkernel-x86_64-2.6.38-gentoo-r4
 
 # Only in case you want to dual-boot
